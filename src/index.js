@@ -12,7 +12,9 @@ const App = () => {
 			<Nav/>
 			<section id="content">
 				<Route path="/" exact={true} component={Page.Home}/>
-				<Route path="/page" component={Page.Page}/>
+				<Route path="/blog" component={Page.Blog}/>
+				<Route path="/social" component={Page.Social}/>
+				<Route path="/projects" component={Page.Projects}/>
 			</section>
 		</div>
 	</BrowserRouter>);

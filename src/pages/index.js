@@ -1,7 +1,11 @@
 import Home from "./home";
-import Page from "./page";
+import Blog from "./blog";
+import Social from "./social";
+import Projects from "./projects";
 
 export {
 	Home,
-	Page
+	Blog,
+	Social,
+	Projects
 };
