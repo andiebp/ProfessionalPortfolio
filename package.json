@@ -1,0 +1,31 @@
+{
+	"name": "Webpack4React",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --mode development --open",
+		"build": "webpack --mode production"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.4",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-react": "^6.24.1",
+		"html-loader": "^0.5.5",
+		"html-webpack-plugin": "^3.0.7",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0",
+		"webpack": "^4.1.1",
+		"webpack-cli": "^2.0.12",
+		"webpack-dev-server": "^3.1.1"
+	},
+	"dependencies": {
+		"css-loader": "^0.28.11",
+		"react-router-dom": "^4.2.2",
+		"style-loader": "^0.20.3"
+	}
+}
