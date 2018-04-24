@@ -1,5 +1,9 @@
-nav.navbar {
-	background-color: ;
-	margin-bottom: 0;
-	text-align: left;
+.page-footer {
+	padding-top: 0;
+}
+
+.page-footer a {
+	margin: 0 10px;
+	color: #00695c;
+	font-weight: bold;
 }

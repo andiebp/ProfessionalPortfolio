@@ -2,18 +2,18 @@ import React from 'react';
 import {render} from 'react-dom';
 import {Route, NavLink, BrowserRouter} from "react-router-dom";
 import Nav from "./components/Nav";
-import * as Page from "./pages"
+import Link from "./components/Link";
+import Footer from "./components/Footer";
+import * as Page from "./pages";
 import "./style.css";
 
-const title = '';
 class App extends React.Component {
 	componentDidMount() {
 		document.title = "Andie Bourgeois | Full-Stack Development, Frisco, Texas";
 	}
 	render() {
 		return (<BrowserRouter>
-			<div>
-				{title}
+			<React.Fragment>
 				<Nav>
 					<NavLink to="/">
 						Home
@@ -32,13 +32,17 @@ class App extends React.Component {
 						*/
 					}
 				</Nav>
-				<section id="content">
+				<main>
 					<Route path="/" exact={true} component={Page.Home}/>
 					<Route path="/blog" component={Page.Blog}/>
 					<Route path="/social" component={Page.Social}/>
 					<Route path="/projects" component={Page.Projects}/>
-				</section>
-			</div>
+				</main>
+				<Footer>
+					Andie Bourgeois-Patel &copy; 2018 - Made proudly from scratch using Materialize, React, and Webpack4.
+					<Link to="https://github.com/andiebp/ProfessionalPortfolio">GitHub</Link>
+				</Footer>
+			</React.Fragment>
 		</BrowserRouter>);
 	}
 };

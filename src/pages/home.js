@@ -1,4 +1,5 @@
 import Accordion from "../components/Accordion"
+import Link from "../components/Link";
 import React from "react";
 
 export default() => (<React.Fragment>
@@ -17,27 +18,29 @@ export default() => (<React.Fragment>
 		<div className="row">
 			<Accordion>
 				<li title="Full-Stack Web Developer - Currently seeking" className="active">
-					<p> Currently seeking a Full Stack Web developer position, open to freelance projects opportunities</p>
+					<p>
+						Currently seeking a Full Stack Web developer position, open to freelance projects opportunities
+					</p>
 				</li>
 			</Accordion>
 
 			<div className="float-right">
 				<Accordion expandable="true">
-					<li title="SOUTHERN METHODIST UNIVERSITY - JAN. 2018" className="active">
+					<li title="Southern Methodist University - Jan. 2018" className="active">
 						<h4>
 							Full Stack Web Development Certificate Coding Bootcamp
 						</h4>
 						<p>
-							Skills learned: full stack web application development, project management, team management, version control merges/conflicts solving, debugging, code refactoring, pair programming, web application research and design
+							Skills learned: Full stack web application development, project management, team management, version control merges/conflicts solving, debugging, code refactoring, pair programming, web application research and design
 						</p>
 					</li>
-					<li title="COLLIN COLLEGE - 2019" className="active">
+					<li title="Collin College - 2019" className="active">
 						<h4>AA Applied Science Business Field of Study</h4>
 						<p>Related Coursework: Change Management, Organizational Behavior, Negotiations and Conflict Management, Principles of Marketing, Business Ethics</p>
 					</li>
 				</Accordion>
 			</div>
-			<a href="/assets/Bourgeois, Andie - Resume.pdf" className="waves-effect waves-light btn-large">Download Resume</a>
+			<Link to="assets/Bourgeois, Andie - Resume.pdf" className="waves-effect waves-light btn-large external">Download Resume</Link>
 		</div>
 	</div>
 </React.Fragment>)
