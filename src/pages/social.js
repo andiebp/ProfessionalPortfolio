@@ -1,6 +1,6 @@
 import React from "react";
 
-const Page = () => (<div>
+export default() => (<div>
 	<div id="contact" className="section scrollspy">
 		<div className="container center">
 			<div className="row">
@@ -35,5 +35,3 @@ const Page = () => (<div>
 		</div>
 	</div>
 </div>);
-
-export default Page;

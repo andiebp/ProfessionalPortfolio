@@ -1,1 +1,4 @@
-export { default } from "./Nav";
+import React from "react";
+import "./style.css";
+
+export default() => ();

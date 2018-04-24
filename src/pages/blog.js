@@ -1,7 +1,7 @@
 import React from "react";
 import {Route} from "react-router-dom";
 
-class Page extends React.Component {
+export default class extends React.Component {
 	componentDidMount() {
 		let elem = document.querySelector('.collapsible');
 		M.Collapsible.init(elem);
@@ -36,5 +36,3 @@ class Page extends React.Component {
 		</div>);
 	}
 };
-
-export default Page;
