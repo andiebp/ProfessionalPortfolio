@@ -16,22 +16,22 @@ export default() => (<React.Fragment>
 		</div>
 		<div className="row">
 			<Accordion>
-				<li title="UI / Web Developer @ Organization">
-					<p>Lorem ipsum dolor sit amet.</p>
+				<li title="Full-Stack Web Developer - Currently seeking" className="active">
+					<p> Currently seeking a Full Stack Web developer position, open to freelance projects opportunities</p>
 				</li>
 			</Accordion>
 
 			<div className="float-right">
-				<Accordion>
-					<li title="SOUTHERN METHODIST UNIVERSITY - JAN. 2018">
+				<Accordion expandable="true">
+					<li title="SOUTHERN METHODIST UNIVERSITY - JAN. 2018" className="active">
 						<h4>
 							Full Stack Web Development Certificate Coding Bootcamp
 						</h4>
 						<p>
-							Skills learned: project management, team management, version control merges/conflicts solving, debugging, code refactoring, pair programming, web application research and design
+							Skills learned: full stack web application development, project management, team management, version control merges/conflicts solving, debugging, code refactoring, pair programming, web application research and design
 						</p>
 					</li>
-					<li title="COLLIN COLLEGE - 2019">
+					<li title="COLLIN COLLEGE - 2019" className="active">
 						<h4>AA Applied Science Business Field of Study</h4>
 						<p>Related Coursework: Change Management, Organizational Behavior, Negotiations and Conflict Management, Principles of Marketing, Business Ethics</p>
 					</li>
